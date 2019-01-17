@@ -21,17 +21,3 @@ od cmd - dump exec in octal
 
 objdump cmd
 -d = disassemble exec
-
-Multifiles
-.h files have <filename.h> notation which tells compiler to look in /path/to/c DIR and not PWD
-
-to compile with .h in PWD use:
-gcc -c *.c -I.
-gcc compile ALL .c files and include headers from PWD
-
-multiple .c files -> .o files -> link .o files together into executable
-
-
-linking in detail
-libc.so / libc.a standard C library which GCC automatically links to
-

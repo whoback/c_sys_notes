@@ -1,0 +1,20 @@
+GNU gcc Compiler notes
+
+executable file = .out
+- preprocessor = .i with gcc -E
+- compiler = .s with gcc -S
+- assembler = .= with gcc -c
+
+shortcut - gcc -save-temps will generate all and save along with a.out
+
+file exploration
+
+file cmd
+readelf cmd
+-l = program headers
+-h = file headers
+-S = section headers
+-s = symbol table
+
+od cmd - dump exec in octal
+-h = hex dump
